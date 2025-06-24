@@ -25,4 +25,11 @@ Le croquis utilise 1222 octets (3%) de l'espace de stockage de programmes. Le ma
 Les variables globales utilisent 9 octets (0%) de mémoire dynamique, ce qui laisse 2039 octets pour les variables locales. Le maximum est de 2048 octets.
 ```
 - On va maintenant téléverser le logiciel sur l'Arduino Nano
-- Après une petite attente, tu vas voir la LED L clignoter
+- Après une petite attente, tu vas voir la LED nommée L clignoter !
+- Peux-tu désormais modifier le clignotement de la LED en changeant le programme `nano_led.ino` ?
+
+## Arduino IDE
+
+Voilà une [présentation récapitulative](https://arduino.blaisepascal.fr/presentation/logiciel/) de l'IDE Arduino :
+
+![IDE-Arduino-V2-1](https://github.com/user-attachments/assets/bbb2add5-ecb9-4ca9-902e-8e20e17445e4)
