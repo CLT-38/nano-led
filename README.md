@@ -2,6 +2,15 @@
 
 Si tu débutes dans CLT, ce programme est fait pour toi !
 
+Pour commencer, connecte le câble USB A - USB mini comme suit :
+
+- Branche le USB A au PC
+- Branche le USB mini à l'Arduino Nano
+
+La LED "pow" (power = allumé) s'allume en rouge.
+
+On va désormais passer à la programmation de la Nano.
+
 Suis les étapes suivantes :
 
 - Installe le logiciel [Arduino IDE](https://www.arduino.cc/en/software/)
