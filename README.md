@@ -2,6 +2,51 @@
 
 URL / addresse : [https://github.com/CLT-38/nano-led/](https://github.com/CLT-38/nano-led/)
 
+<img width="300" height="300" alt="frame" src="https://github.com/user-attachments/assets/faddc5f8-06ea-4d17-baec-a404bd312ccc" />
+
+## Introduction à la Nano
+
+### Qu'est-ce que l'Arduino ?
+
+Plateforme électronique open-source basée sur des cartes de microcontrôleur faciles à utiliser et un environnement de développement intégré (IDE).
+
+Permet aux débutants et aux professionnels de créer des projets interactifs.
+
+### Qu'est-ce que l'Arduino Nano ?
+
+C'est une carte de microcontrôleur compacte, développée par Arduino.
+
+Elle offre les mêmes fonctionnalités que l'Arduino Uno, mais dans un format beaucoup plus petit (environ 45 mm x 18 mm).
+
+Sa petite taille la rend idéale pour les prototypes sur platine d'expérimentation (breadboard-friendly) et pour les systèmes embarqués ou les projets où l'espace est limité.
+
+### Spécifications Techniques Clés (Version Classique ATmega328P)
+
+Caractéristique	Spécification	Note
+Microcontrôleur	ATmega328P	Le "cerveau" de la carte.
+Tension de fonctionnement	5V	Tension standard pour les signaux d'E/S.
+Tension d'entrée (recommandée)	7V – 12V	Via la broche VIN (non régulée).
+Vitesse d'horloge	16 MHz	Détermine la vitesse d'exécution des instructions.
+Mémoire Flash	32 KB	Pour stocker le programme (Sketch).
+SRAM	2 KB	Mémoire vive utilisée pendant l'exécution.
+EEPROM	1 KB	Stockage non volatile pour les données persistantes.
+Broches numériques E/S	14 (dont 6 PWM)	Utilisées pour les signaux ON/OFF ou PWM.
+Broches d'entrée analogique	8 (A0 à A7)	Pour lire les signaux analogiques (ex: capteurs).
+Connecteur USB	Mini-USB Type B	Utilisé pour l'alimentation, la programmation et la communication série.
+Courant par broche E/S	40 mA maximum	À ne pas dépasser pour ne pas endommager le microcontrôleur.
+
+### Fonctionnalités et Connectivité
+
+Entrées/Sorties (E/S)
+
+Numériques (Digital): 14 broches qui peuvent être utilisées comme entrée (lecture d'un bouton) ou sortie (allumage d'une LED).
+
+PWM (Modulation de largeur d'impulsion): 6 broches (marquées ~) pour simuler une sortie analogique (ex: faire varier la luminosité d'une LED ou contrôler un moteur).
+
+Analogiques: 8 broches (A0-A7) pour lire des tensions variables (ex: potentiomètres, capteurs de lumière/température).
+
+## Ton premier programme avec une Nano
+
 Si tu débutes dans CLT, ce programme est fait pour toi !
 
 Pour commencer, connecte le câble USB A - USB mini comme suit :
