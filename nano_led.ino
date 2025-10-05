@@ -12,6 +12,10 @@ void setup() {
 }
 
 void loop() {
+
+  int pause_entre_deux_lettres = 1000;
+  int pause_entre_deux_clt = 4000;
+
   // C - signal long-court-long-court (-.-.)
   digitalWrite(LED_BUILTIN, HIGH);
   delay(600);  // Signal long
@@ -31,7 +35,7 @@ void loop() {
   digitalWrite(LED_BUILTIN, HIGH);
   delay(200);  // Signal court
   digitalWrite(LED_BUILTIN, LOW);
-  delay(400);  // Pause entre lettres
+  delay(pause_entre_deux_lettres);  // Pause entre lettres
   
   // L - signal court-long-court-court (.-..)
   digitalWrite(LED_BUILTIN, HIGH);
@@ -52,12 +56,12 @@ void loop() {
   digitalWrite(LED_BUILTIN, HIGH);
   delay(200);  // Signal court
   digitalWrite(LED_BUILTIN, LOW);
-  delay(400);  // Pause entre lettres
+  delay(pause_entre_deux_lettres);  // Pause entre lettres
   
   // T - signal long (-)
   digitalWrite(LED_BUILTIN, HIGH);
   delay(600);  // Signal long
   digitalWrite(LED_BUILTIN, LOW);
   
-  delay(2000);  // Pause longue avant de répéter CLT
+  delay(pause_entre_deux_clt);  // Pause longue avant de répéter CLT
 }
